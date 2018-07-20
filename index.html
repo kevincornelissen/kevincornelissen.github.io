@@ -35,14 +35,6 @@
 				return false;
 			}
 		</script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-41497471-1', 'graffik.be');
-			ga('send', 'pageview');
-		</script>
 	</head>
 	<body>
 		<div id="home"></div>
@@ -53,26 +45,29 @@
 					<div id="navBox">
 						<a href="#home"> <img src="images/up.png" alt="up" height="15" width="15" ></a>
 						<ul class="rokkitt">
-							<li class="navList"><a href="#about" class="link">ABOUT</a></li>
-							<li class="navList"><a href="#portfolio" class="link">PORTFOLIO</a></li>
-							<li class="navList"><a href="#contact" class="link">CONTACT</a></li>
+							<li class="navList"><a href="#about" class="link">INFO</a></li>
+							<!--<li class="navList"><a href="#portfolio" class="link">DIENSTEN</a></li>-->
+							<li class="navList"><a href="#contact" class="link">CONTACEER MIJ</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<div id="wrapper">
-				<div class="welcomeImage"><img id="afbeelding" src="images/welcomeEn.png" ></div>
+				<div class="welcomeImage">
+				<!--<img id="afbeelding" src="images/welcomeEn.png" >-->
+				<h1 class="titel roboto">Welkom, vind hier uw computer of smartphone hulp aan huis! <br><br>0499 18 98 61</h1>
+				</div>
 				<a href="#about" ><img id="logo" width="150" height="150" alt="logo" src="images/logo.png"></a>
 			</div>
 		</div>
 		<div class="linkHolder" id="about"></div>
 		<div class="aboutBg" >
-			<div id="aboutBox"><h2 class="roboto aboutTitle">ABOUT</h2></div>
-			<div class="topText verdana"><p>My name is Kevin Cornelissen and I’m a 23 year old website constructor. I have a huge passion for design and development.</p></div>
-			<div class="leftText"><h3 class="rokkitt">DESIGN</h3><p class="allign">As a web designer I deliver handcrafted websites that cover all your wishes and add a tremendous value to your company. By brainstorming, sketching and reviewing together,  we will come to a fitting design. I see digital design not only as something artistic, but also as a useful marketing tool. I design with usability, web-standard and functionality in my head all the time.</p></div>
-			<div class="rightText"><h3 class="rokkitt">DEVELOPMENT</h3><p class="allign">When developing a website, my mission is to create a flawless website with as little workarounds as possible, so you get the purest and best out of it. My main skills are HTML, CSS and Javascript. Every day, I learn new things to make more stable and better working websites.</p></div>
+			<div id="aboutBox"><h2 class="roboto aboutTitle">INFO</h2></div>
+			<div class="topText verdana"><p>Mijn naam is Kevin Cornelissen, uw hulp bij het installeren, configureren en onderhouden van al uw computer en smartphone apparatuur.</p></div>
+			<div class="leftText"><h3 class="rokkitt">COMPUTERS</h3><p class="allign">Heeft u een probleem of hulp nodig bij het installeren, aanpassen, begrijpen van uw computers en of laptops? Aarzel dan niet om mij te contacteren. U mag advies op maat verwachten. De service word rechtstreeks bij u thuis aangeboden.</p></div>
+			<div class="rightText"><h3 class="rokkitt">SMARTPHONES</h3><p class="allign">Indien u wilt worden bijgestaan met de installatie van uw toestel, een aanapssing wilt doen of een probleem wilt oplossen dan komen wij graag tot bij u ter plaatse om dit in detail te bekijken.</p></div>
 		</div>
-		<div class="linkHolder " id="portfolio"></div>
+		<!--<div class="linkHolder " id="portfolio"></div>
 		<div class="horizontalLineOne"></div>
 		<div class="portfolioBox"><h2 class="roboto portfolioTitle">PORTFOLIO</h2></div>
 		<div class="portfolio">
@@ -88,7 +83,7 @@
 		<div class="portfolio">
 			<div class="text"><h3 class="roboto">KAAS</h3><p class="verdana">This typographic work was an assignment that was given to me in class. The assignment was to create a typographic work with a word and theme of my own choice. I chose the word "cheese", and all I can say is ... the result is delicious!</p></div>
 			<div class="image" id="kaas"></div>
-		</div>
+		</div>-->
 		<div class="linkHolder" id="contact"></div>
 		<div id="footerBg">
 			<div id="footerBox"><h2 class="roboto">CONTACT</h2></div>
@@ -96,12 +91,12 @@
 			</div>
 			<div class="contactForm">
 					<form id="register-form" method="post" action="scripts/contact.php">
-						<label for="email" class="rokkitt descriptionOne">EMAIL</label>
-						<input class="input" id="email" name="email" type="text" >
-						<label for="message" class="rokkitt descriptionTwo">MESSAGE</label>
-						<textarea class="input message" id="message" name="message" ></textarea>
+						<label for="email" class="rokkitt descriptionOne">UW EMAIL</label>
+						<input class="input" id="email" name="email" type="text" placeholder="Plaats hier uw e-mail adres">
+						<label for="message" class="rokkitt descriptionTwo">UW BERICHT</label>
+						<textarea class="input message" id="message" name="message" placeholder="Plaats hier uw bericht + telefoon nummer"></textarea>
 						<div class="clearer"></div>
-						<input id="submit" class="roboto" name="submit" type="submit" value="SUBMIT"> 
+						<input id="submit" class="roboto" name="submit" type="submit" value="STUUR">
 					</form>
 				</div>
 		</div>

@@ -10,7 +10,7 @@
   $email_content .= "Message:\n\n$message";  
         
   // send the email  
-  mail ("info@kevincornelissen.be", "New Contact Message", $email_content);  
+  mail ("info@kevincornelissen.be", "Nieuw Contact Formulier", $email_content);  
         
   // send the user back to the form  
   function goback()
