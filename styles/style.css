@@ -285,7 +285,7 @@ h1.titel{
 /*footer*/
 #footerBg{
 	margin-top: 100px;
-	background-color: #191919;
+	background-color: #FFF;
 	width: 100%;
 	height: 775px;
 	position: relative;
@@ -347,7 +347,7 @@ a:active {
 	margin: 35px auto 0 auto;
 	width: 50%;
 	height: 490px;
-	background-color: #2a2a2a;
+	background-color: #FFF;
 	position: relative;
 	min-width: 625px;
 }
